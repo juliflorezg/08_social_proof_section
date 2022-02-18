@@ -1,0 +1,48 @@
+@use 'abstracts' as abs;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Spartan', sans-serif;
+}
+
+body {
+	background-color: rgb(255, 255, 255);
+	background-color: abs.$white;
+	padding: 80px 25px;
+	position: relative;
+	min-height: 100vh;
+
+	@media screen and (min-width: 1050px) {
+		padding: 130px 25px;
+	}
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	@media screen and (min-width: 1050px) {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		gap: 35px;
+		max-width: 1110px;
+		min-height: 575px;
+		margin: 0 auto;
+	}
+}
+
+.attribution {
+	position: absolute;
+	bottom: 0%;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
