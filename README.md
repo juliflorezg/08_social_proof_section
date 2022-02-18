@@ -1,14 +1,14 @@
-<img src=""></img>
+<img src="https://raw.githubusercontent.com/juliflorezg/08_social_proof_section/main/public/images/screenshot.png"></img>
 
-<h1 align="center">QR code component challenge</h1>
+<h1 align="center">Social proof section challenge</h1>
 
 <div align="center">
   <h3>
-    <a href="" color="white">
+    <a href="https://juliflorezg.github.io/08_social_proof_section/" color="white">
       Live
     </a>
     <span> | </span>
-    <a href="">
+    <a href="https://www.frontendmentor.io/solutions/my-solution-to-the-social-proof-section-challenge-hLM2WL1-D">
       Solution
     </a>
    <span> | </span>
